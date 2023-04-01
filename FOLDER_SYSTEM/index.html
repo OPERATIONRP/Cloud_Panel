@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,minimum-scale=1">
+		<title>File Management System</title>
+		<link href="style.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+        
+        <div class="file-manager"></div>
+
+		<script src="FileManager.js"></script>
+		<script>
+		const fileManager = new FileManager();
+		/*
+		OTHER EXAMPLES
+
+		const fileManager = new FileManager({
+			sortBy: 'modified', // (name|size|modified|type|perms|owner)
+			sortOrder: 'ASC', // (ASC|DESC)
+			path: 'http://example.com/filemanagement/' // URL Path to your file management system directory
+		});
+		*/
+		</script>
+
+    </body>
+</html>
